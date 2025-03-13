@@ -1,0 +1,22 @@
+{
+    "name": "cruzcode/package",
+    "description": "Pacote criado na aula sobre pacotes pro composer",
+    "require": {
+        "monolog/monolog": "3.x-dev"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "11.5.x-dev"
+    },
+    "authors": [
+        {
+            "name": "Josilan Fonseca",
+            "email": "cjosilan@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "CruzCode\\": "src/"
+        }
+    }
+}
